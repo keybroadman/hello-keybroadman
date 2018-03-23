@@ -9,7 +9,7 @@ knn mnist
 
 @author: Administrator
 """
-import numpy
+from numpy import *
 from os import listdir
 
 def classify(indt,dataset,labels,k):
